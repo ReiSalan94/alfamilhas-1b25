@@ -21,34 +21,69 @@ section {
     width: 200px;
     border-radius: 20px;
 }
-.logotipo{
+
+.logotipo {
     float: left;
 }
-.menu li a{
+
+.menu li a {
     color: #000;
-    text-decoration: none; 
+    text-decoration: none;
 }
-.menu li a:hover{
-    color:#444;
+
+.menu li a:hover {
+    color: #444;
 }
-.menu{
+
+.menu {
     padding-top: 20px;
 }
-.slider img{
+
+.slider img {
     width: 100%;
 }
+
 header {
     padding: 10px 0;
     height: 100px;
 }
-.item{
+
+.item {
     background-color: #fff;
-    padding: 10px;
+    padding: 20px;
     display: inline-block;
     width: 300px;
+    margin: 10px 10px;
 }
-.descricao{
+
+.descricao {
+    padding: 10px 0;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
+    color: #444;
+}
+a{
+    text-decoration: none;
+}
+footer div{
+    width: 32%;
+    display: inline-block;
+}
+footer iframe{
+    width: 100%!important;
+}
+footer{
+    background-color: #444;
+}
+
+.formulario input{
+    width: 90%;
+    height: 40px;
+    margin: 10px;
+}
+.contato p{
+    font-size: 20px;
+    padding: 10px;
+    color: #fff;
 }
